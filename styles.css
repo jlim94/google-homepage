@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+Body {
+	    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+#top {
+	display: flex;
+	justify-content: space-between;
+	height: 90px;
+}
+.left-side {
+	  display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.left-side a {
+    padding-left: 23px;
+}
+
+.left-side a:hover {
+    text-decoration: underline;
+}
+.right-side {
+	 display: flex;
+   float: right;
+   align-items: center;
+   margin: 0;
+   margin-right: 20px;
+}
+.right-side li {
+	margin: 10px 10px;
+   font-size: 13px;
+}
+.right-side button {
+    margin-right: 0px;
+    padding: 8px 13px;
+    color: #fff;
+    border-style: none;
+    font-weight: bold;
+    background-color: #3385ff;
+    border-radius: 2px;
+}
+Main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.logo img {
+	padding-top: 140px;
+}
+.search-bar {
+   box-shadow: 0 0.1em .3em #E3E0E0;
+   width: 550px;
+   height: 40px;
+   margin: auto;
+   border: solid 1px #E3E0E0; 
+}
+.search-bar:hover {
+   box-shadow: 0 0.3em .7em #BFBDBD;
+}
+.search {
+	padding-top: 10px;
+   text-indent: 20px;
+   font-size: 20px;
+   width: 480px;
+   height: 30px;
+   border: none;
+   float: left;
+   margin: 2px;
+}
+.search-bar a img {
+	padding-top: 8px;
+	align-items: right;
+}
+.search-button{
+	padding-top: 10px;
+}
+.search-button button {
+    padding: 10px 15px;
+    font-weight: bold;
+    margin: 4px;
+    border-style: none;
+    color: #737373;
+    background-color: #f2f2f2;
+}
+
+.search-button button:hover {
+    color: #000;
+    border: .5px solid #b3b3b3;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    justify-content: space-between;
+    border-top: .5px solid #e6e6e6;
+    background-color: #f2f2f2;
+}
+
+.bottom-left {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-left a {
+    color: #595959;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    padding-left: 30px;
+}
+
+.bottom-left a:hover {
+    text-decoration: underline;
+}
+
+.bottom-right {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-right a {
+    color: #595959;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    padding-right: 30px;
+}
+
+.bottom-right a:hover {
+    text-decoration: underline;
+}
